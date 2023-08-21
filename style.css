@@ -177,3 +177,17 @@ justify-content: center;
   justify-content: center;
   align-items: center;
 }
+
+/*media quqery  */
+/** type af screen sperch  */
+@media (max-width: 760px)  {
+.nav-bar {
+    background-color: aqua;
+  } 
+}
+ 
+@media(max-width: 350px)  {
+ .nav-bar {
+  background-color: rgb(105, 106, 112);}
+  
+}
