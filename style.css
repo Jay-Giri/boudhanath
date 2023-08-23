@@ -80,7 +80,8 @@
   width: 75%;
 }
 
-.read-by-country, .read-by-date {
+.read-by-country,
+.read-by-date {
   /* width: 25%; */
   margin-top: 40px;
   /* margin-left: 10%; */
@@ -93,6 +94,11 @@ article {
   display: flex;
   border: 2px solid#ccc;
   border-radius: 10px;
+  row-gap: 1.5rem;
+  padding: 1rem;
+  padding-left: 1.5rem;
+  margin-top: auto;
+  margin-left: 10px;
 }
 
 .art-img {
@@ -100,15 +106,44 @@ article {
 }
 
 .title {
+  color: orange;
   font-size: 1.3rem;
-  font-weight: 500 ;
-}
-.btn-box {
- display: flex; 
- justify-content: end;
+  font-weight: 800;
 }
 
-.btn  {
+#title2 {
+  padding-left: 25px;
+  color: aqua;
+}
+
+.date2 {
+  padding-left: 25px;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: end;
+}
+
+#p1 {
+  padding-left: 25px;
+}
+
+#title3 {
+  padding-left: 25px;
+  font-weight: 800;
+  color: green
+}
+
+.date3 {
+  padding-left: 25px;
+}
+
+#p3 {
+  padding-left: 25px;
+}
+
+.btn {
   padding: 10px 15px;
   background-color: rgb(1, 0, 0);
   border: none;
@@ -119,58 +154,55 @@ article {
 
 /* rec part */
 .rec {
- background-color: coral; 
- padding: 3rem 0;
- }
+  background-color: coral;
+  padding: 3rem 0;
+}
 
- .card-list {
+.card-list {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   gap: 2rem;
   flex-direction: row;
   justify-content: space-around;
- }
+}
 
- .card {
+.card {
   width: 250px;
   background-color: grey;
   padding: 10px;
-  box-shadow: -5px 5px 5px 5px  black;
+  box-shadow: -5px 5px 5px 5px black;
   border-radius: 10pz;
+}
 
- }
-
- .subs {
+.subs {
   padding: 50px 0;
-  display:flex;
-  flex-direction: column ;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
- }
- /* form input */
- form input{
+}
+/* form input */
+form input {
   padding: 10px 5px;
   background-color: #ccc;
 }
 
-
 #footer {
   display: flex;
-
 }
 
 .left {
-flex: 1;
-display: flex;
-align-items: center;
-justify-content: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .right {
   flex: 1;
   display: flex;
   align-items: center;
 }
-.center{
+.center {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -180,14 +212,14 @@ justify-content: center;
 
 /*media quqery  */
 /** type af screen sperch  */
-@media (max-width: 760px)  {
-.nav-bar {
+@media (max-width: 760px) {
+  .nav-bar {
     background-color: aqua;
-  } 
+  }
 }
- 
-@media(max-width: 350px)  {
- .nav-bar {
-  background-color: rgb(105, 106, 112);}
-  
+
+@media (max-width: 350px) {
+  .nav-bar {
+    background-color: rgb(105, 106, 112);
+  }
 }
